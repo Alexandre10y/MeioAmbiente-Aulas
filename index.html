@@ -1,71 +1,361 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meio Ambiente e Ações para Mudar o Mundo</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Alexandre Belloni</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: UpConstruction
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-    <header>
-        <h1>Meio Ambiente e Ações para Mudar o Mundo</h1>
-        <p>Um planeta saudável é responsabilidade de todos.</p>
-    </header>
 
-    <nav>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>Professor <span>Alexandre.</span></h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
         <ul>
-            <li><a href="#intro">Início</a></li>
-            <li><a href="./sustentavel/acoes.html">Ações Sustentáveis</a></li>
-            <li><a href="#informacoes">Mais Informações</a></li>
-            <li><a href="#contato">Contato</a></li>
+          <li><a href="index.html" class="active">Pagina Inicial</a></li>
+          <li><a href="./Pages/materias.html">Matérias</a></li>
+          <li><a href="./Pages/projects.html">Projetos</a></li>
+          <li><a href="./Pages/contact.html">Contato</a></li>
         </ul>
-    </nav>
+      </nav><!-- .navbar -->
 
-    <section id="intro">
-        <h2>Bem-vindo ao Nosso Mundo Sustentável</h2>
-        <p>Descubra como pequenas mudanças podem fazer grandes diferenças para o nosso planeta.</p>
-    </section>
+    </div>
+  </header><!-- End Header -->
 
-    <section id="acoes">
-        <h2>Ações Sustentáveis</h2>
-        <p>Aqui estão algumas ações que você pode tomar para contribuir:</p>
-        <ul>
-            <li>Reciclar materiais</li>
-            <li>Economizar energia</li>
-            <li>Reduzir o consumo de plástico</li>
-            <li>Usar transportes sustentáveis</li>
-            <li>Plantar árvores</li>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Bem Vindo Ao <span> Espaço Educacional</span></h2>
+            <p data-aos="fade-up">Explore recursos abrangentes, participe de discussões, receba feedback personalizado e
+              esteja sempre atualizado com nosso calendário acadêmico. Uma plataforma interativa que visa enriquecer a
+              experiência de aprendizado em sala de aula, promovendo colaboração e crescimento educacional. Explore,
+              aprenda e cresça conosco!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg)">
+      </div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg)"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Constructions Section ======= -->
+    <section id=" get-started constructions" class="get-started section-bg constructions ">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Objetivos</h2>
+          <p>Nosso site visa apoiar professores, alunos e entusiastas da educação. Queremos simplificar o acesso a
+            recursos educacionais, promover a colaboração entre professores, oferecer feedback personalizado aos alunos
+            e compartilhar informações relevantes sobre práticas educacionais. Buscamos criar uma comunidade vibrante e
+            integrada, inspirando o crescimento intelectual e a aprendizagem coletiva.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-1.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Pensamento Computacional</h4>
+                    <p>Nesta página teremos a publicação semanal das aulas que serão desenvolvidas com o passo a passo
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-2.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Programação Web</h4>
+                    <p>Nesta página teremos a publicação semanal das aulas que serão desenvolvidas com o passo a passo
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+
+        </div>
+
+      </div>
+    </section><!-- End Constructions Section -->
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features section-bg">
+      <div class="container" data-aos="fade-up">
+        <ul class="nav nav-tabs row  g-2 d-flex">
+          <div class="section-header">
+            <h2>Projeto Robótica</h2>
+          </div>
+
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <h4>Sensor Ultrassônico</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <h4>Servo Motores</h4>
+            </a><!-- End tab nav item -->
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <h4>Sistema de Leds</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <h4>Sensor de Umidade</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
         </ul>
-    </section>
 
-    <section id="informacoes">
-        <h2>Mais Informações</h2>
-        <p>Explore mais sobre o meio ambiente e descubra como você pode se envolver. Leia artigos, assista a vídeos e siga-nos nas redes sociais.</p>
-        <a href="#">Leia mais</a>
-    </section>
+        <div class="tab-content">
 
-    <section id="contato">
-        <h2>Entre em Contato</h2>
-        <p>Tem dúvidas ou sugestões? Entre em contato conosco!</p>
-        <form action="#" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                data-aos="fade-up" data-aos-delay="100">
+                <h3>Sensor Ultrassônico</h3>
+                <p class="fst-italic">
+                  o Sensor Ultrassônico atua como os olhos da engenharia eletrônica. Com sua capacidade de medir
+                  distâncias de forma precisa, ele abre as portas para a criação de sistemas que percebem o mundo ao seu
+                  redor, garantindo uma interação inteligente e eficaz.
+                </p>
+                <p>Podemos realizar com este item:</p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Medição Precisa de Distância.</li>
+                  <li><i class="bi bi-check2-all"></i> Tecnologia de Pulso Ultrassônico.</li>
+                  <li><i class="bi bi-check2-all"></i> Aplicações Versáteis.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/features-1.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Servo Motores</h3>
+                <p class="fst-italic">
+                  Os Servo Motores são os músculos da eletrônica, conferindo movimento e precisão a inúmeras aplicações.
+                  Sua capacidade de girar em posições específicas, em resposta a sinais de controle, permite a
+                  construção de mecanismos complexos, desde braços robóticos até sistemas de rastreamento solar,
+                  ampliando as possibilidades da automação.
+                </p>
+                <p>Podemos realizar com este item:</p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Diversidade de Aplicações:</li>
+                  <li><i class="bi bi-check2-all"></i> Feedback de Posição:</li>
+                  <li><i class="bi bi-check2-all"></i> Movimento Controlado e Posicionamento Preciso:</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-2.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Sistema de LEDs:</h3>
+                <p class="fst-italic">
+                  Imagine o Sistema de LEDs como a paleta de cores da eletrônica. Esses pequenos diodos emissores de luz
+                  transformam sinais elétricos em expressões visuais. Podem criar ambientes coloridos, indicar estados
+                  operacionais ou até mesmo transmitir informações codificadas. São a linguagem visual que dá vida aos
+                  projetos eletrônicos.
+                </p>
+                <p>Podemos realizar com este item:</p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Iluminação e Sinalização:</li>
+                  <li><i class="bi bi-check2-all"></i> Controle de Intensidade Luminosa:</li>
+                  <li><i class="bi bi-check2-all"></i> Integração em Projetos Eletrônicos:</li>
+                </ul>
 
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
 
-    <footer>
-        <p>&copy; 2024 Meio Ambiente Inc. | Desenvolvido por Seu Nome</p>
-    </footer>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Sensor de Umidade</h3>
+                <p class="fst-italic">
+                  Como a pele de um sistema, o Sensor de Umidade detecta e responde às mudanças ambientais. Seja em
+                  projetos agrícolas, climatização ou automação residencial, esse componente é crucial para monitorar e
+                  ajustar as condições, garantindo um controle preciso e adaptativo de acordo com as necessidades do
+                  ambiente.
+                </p>
+                <p>Podemos realizar com este item:</p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> Monitoramento Ambiental.</li>
+                  <li><i class="bi bi-check2-all"></i> Controle de Processos Industriais.</li>
+                  <li><i class="bi bi-check2-all"></i> Integração em Sistemas de Climatização.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Alexandre Belloni</h3>
+              <p>
+                Rua José Bonifácio <br>
+                N° 1110, BR<br><br>
+              </p>
+             
+            </div>
+          </div><!-- End footer info column-->
+          <div class="col-lg-6  col-md-6 footer-links">
+            <p>
+              <strong>Telefone:</strong> +55 42 9 84022669<br>
+              <strong>Email:</strong> alexandre10y@outlook.com<br>
+            </p>
+            <div class="social-links d-flex mt-3">
+              <a href="https://www.instagram.com/alexandremendesbelloni/"
+                class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/alexandre-belloni-022597177/"
+                class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div><!-- End footer links column-->
+
+        </div>
+      </div>
+    </div>
+
+   
+    
+  </footer>
+  <!-- End Footer -->
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
