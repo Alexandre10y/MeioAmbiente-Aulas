@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Redireciona para a nova página após 2 segundos (tempo da animação de pulsação)
         setTimeout(function() {
-            window.location.href = "../../index.html"; // Substitua "nova_pagina.html" pelo nome da sua nova página
-        }, 2000);
+            window.location.href = "../materias.html"; // Substitua "nova_pagina.html" pelo nome da sua nova página
+        }, 1500);
 
-    }, 5000); // 2s para a animação de pulsação + 2s de atraso
+    }, 3500); // 2s para a animação de pulsação + 2s de atraso
 });
